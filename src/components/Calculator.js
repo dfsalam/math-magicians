@@ -1,6 +1,8 @@
 import './calc.css';
 import CalcButton from './CalcButton';
 import CalcDisplay from './CalcDisplay';
+import '../logic/calculate';
+import '../logic/operate';
 
 export default function Calculator() {
   return (
@@ -9,11 +11,11 @@ export default function Calculator() {
       <CalcButton content="AC" />
       <CalcButton content="+/-" />
       <CalcButton content="%" />
-      <CalcButton content="/" btnStyle="orange" />
+      <CalcButton content="÷" btnStyle="orange" />
       <CalcButton content={7} />
       <CalcButton content={8} />
       <CalcButton content={9} />
-      <CalcButton content="X" btnStyle="orange" />
+      <CalcButton content="x" btnStyle="orange" />
       <CalcButton content={4} />
       <CalcButton content={5} />
       <CalcButton content={6} />
