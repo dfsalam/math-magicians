@@ -1,0 +1,37 @@
+.calc__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  max-width: 600px;
+  padding: 20px 20px;
+}
+
+.disStyle {
+  grid-area: 1 / 1 / 2 / 5;
+  background-color: #3d3b3a;
+  color: white;
+}
+
+.disStyle::placeholder {
+  color: white;
+  text-align: end;
+}
+
+.zero {
+  grid-area: 6 / 1 / 7 / 3;
+  border: solid 1px gray;
+}
+
+.orange {
+  border: solid 1px gray;
+  border-radius: 0;
+  background-color: #ff6200;
+}
+
+.defBtn {
+  border: solid 1px gray;
+  border-radius: 0;
+  height: 50px;
+}
