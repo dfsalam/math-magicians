@@ -24,14 +24,18 @@
   border: solid 1px gray;
 }
 
-.orange {
-  border: solid 1px gray;
-  border-radius: 0;
+.orange {  
   background-color: #ff6200;
 }
 
-.defBtn {
-  border: solid 1px gray;
-  border-radius: 0;
+.orange:hover {
+  background-color: #bd4b03;
+}
+
+.orange:active {
+  background-color: #ff6200;
+}
+
+.defBtn {   
   height: 50px;
 }
