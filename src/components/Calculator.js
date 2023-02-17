@@ -28,7 +28,6 @@ export default function Calculator() {
     }
     return total;
   };
-  console.log(state);
   const show = display();
   return (
     <div className="calc__container">
