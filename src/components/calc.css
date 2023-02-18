@@ -25,13 +25,17 @@
 }
 
 .orange {
-  border: solid 1px gray;
-  border-radius: 0;
+  background-color: #ff6200;
+}
+
+.orange:hover {
+  background-color: #bd4b03;
+}
+
+.orange:active {
   background-color: #ff6200;
 }
 
 .defBtn {
-  border: solid 1px gray;
-  border-radius: 0;
   height: 50px;
 }
