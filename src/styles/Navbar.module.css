@@ -2,7 +2,7 @@
   color: blue;
 }
 
-a{  
+a {
   color: black;
   text-decoration: none;
 }
@@ -14,11 +14,11 @@ a{
 
 .links {
   list-style-type: none;
-  align-self: center;  
+  align-self: center;
 }
 
 .links li {
-  float:left;
+  float: left;
   padding: 0 10px;
 }
 
