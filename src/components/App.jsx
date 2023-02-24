@@ -1,3 +1,4 @@
+import '../styles/App.css';
 import { Routes, Route } from 'react-router-dom';
 import Calculator from '../routes/Calculator';
 import Home from '../routes/Home';

@@ -9,11 +9,16 @@ const Navbar = () => {
   ];
   return (
     <nav className={styles.navbar}>
-      <h1>Math Magicians</h1>
+      <h1 className={styles.title}>Math Magicians</h1>
       <ul className={styles.links}>
-        { links.map((link) => (
+        {links.map((link) => (
           <li key={link.text}>
-            <NavLink to={link.path}>{link.text}</NavLink>
+            <NavLink
+              to={link.path}
+              className={({ isActive }) => (isActive ? styles.active : styles.inactive)}
+            >
+              {link.text}
+            </NavLink>
           </li>
         ))}
       </ul>
