@@ -1,0 +1,17 @@
+.active {
+  color: blue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  list-style-type: none;  
+}
+
+.links li {
+  float:left;
+  padding: 0 10px;
+}
