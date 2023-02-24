@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './calc.css';
+import '../styles/calc.css';
 import CalcButton from './CalcButton';
 import CalcDisplay from './CalcDisplay';
 import calculate from '../logic/calculate';
 
-export default function Calculator() {
+export default function CalculatorComponent() {
   const [state, setState] = useState({
     total: null,
     next: null,

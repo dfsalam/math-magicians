@@ -39,3 +39,9 @@
 .defBtn {
   height: 50px;
 }
+
+@media screen and (min-width: 600px) {
+  .calc_container {
+    min-width: 300px;
+  }
+}
