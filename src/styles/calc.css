@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 1px;
-  grid-row-gap: 1px; 
+  grid-row-gap: 1px;
   padding: 20px 20px;
 }
 
@@ -41,6 +41,6 @@
 
 @media screen and (min-width: 600px) {
   .calc__container {
-    min-width: 500px;    
+    min-width: 500px;
   }
 }
